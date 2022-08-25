@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textTitleSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/purple_500"
+        android:text="Кукулятор" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="35sp"
+        android:layout_margin="15sp"
+        android:inputType="textPersonName"
+        android:text="0.0" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="15sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0.0" />
+
+    <TextView
+        android:id="@+id/resultTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:textSize="35sp"
+        android:text="результат" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="сложить числа"
+        android:textColor="@color/background"/>
+
+</LinearLayout>
